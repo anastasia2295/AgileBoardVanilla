@@ -1,0 +1,44 @@
+body{
+    font-family: "Quicksand", sans-serif;
+}
+.block-task{
+    display: inline-block;
+  border: 0.5px solid rgb(219, 217, 217);
+  margin: 2px;
+  width: 15rem;
+  height: 20rem;
+  background-color: rgba(238, 239, 240, 0.658);
+  border-radius: 5px;
+}
+
+.block-task:hover{
+    background-color:rgb(201, 201, 201) ;
+}
+
+h2{
+    color: rgb(156, 156, 156);
+    font-size: 1.3rem;
+}
+
+input{
+    border: 0.5px solid rgb(219, 217, 217);
+    margin: 1rem auto auto auto;
+    border-radius: 5px;
+    width: 19rem;
+    height: 2rem;
+
+}
+#btnAdd{
+    border: 0.5px solid rgb(219, 217, 217);
+    margin: 2px;
+    border-radius: 1px;
+    width: 3rem;
+    height: 2.1rem;
+    color: rgb(95, 95, 95);
+}
+#btnAdd:hover{
+    background-color: rgb(170, 170, 169);
+}
+form{
+    display: inline-block;
+}
