@@ -10,16 +10,16 @@ tasks = ["Understanding HTML CSS layouts positioning", "Adding Forms to websites
 
 
 
-const blokTask = tasks.forEach((item, i, tasks) => {
+const blockTask = tasks.forEach((item, i, tasks) => {
     
     if(item === tasks[i] && item !== tasks[3] && item !== tasks[4]){
        const newElementTasks = document.createElement("li") 
-      newElementTasks.innerHTML= tasks[i]
+      newElementTasks.innerHTML= `<div draggable=true>${tasks[i]}</div>` 
       blockUlWork.append(newElementTasks)
       item = i++
     } else {
         const newElementTasks = document.createElement("li") 
-         newElementTasks.innerHTML= tasks[i]
+         newElementTasks.innerHTML= `<div draggable=true>${tasks[i]}</div>` 
          blockUlCheck.append(newElementTasks)
          item = i++
     }
